@@ -34,7 +34,7 @@ const Header = () => {
     dispatch(DLT(id));
   };
   //
-  //for total amout
+  //for total amount
   const total = () => {
     let price = 0;
     getdata.map((ele, k) => {
